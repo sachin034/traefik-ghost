@@ -22,7 +22,7 @@ services:
 
   traefik:
     image: traefik
-    command: --docker --docker.domain=your-url.com --docker.watch
+    command: --docker --docker.domain=sachinmahajan.me --docker.watch
 # Comment out the above command line and uncomment the below command to enable the Traefik Dashboard
 #    command: --web --docker --docker.domain=your-url.com --docker.watch --logLevel=DEBUG
     networks:
