@@ -1,2 +1,2 @@
-FROM ghost:1.5.2
+FROM ghost:3.38.3
 ADD config.production.json .
