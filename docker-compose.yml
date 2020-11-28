@@ -15,7 +15,7 @@ services:
       - ./content/data:/var/lib/ghost/content/data
 
     labels:
-      - "traefik.frontend.rule=Host:you-url.com, www.your-url.com"
+      - "traefik.frontend.rule=Host:sachinmahajan.me, www.sachinmahajan.me"
       - "traefik.port=2368"
       - "traefik.docker.network=traefik"
 
